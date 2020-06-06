@@ -30,11 +30,10 @@
     "url": "https://github.com/deep5050/crazymoji/issues"
   },
   "files": [
-    "./index.js",
-    "./emojis.js",
-    "./crazymoji.json",
-    "./cheatsheet.md",
-    "./logo.gif"
+    "index.js",
+    "src/",
+    "cheatsheet.md",
+    "logo.gif"
   ],
   "homepage": "https://github.com/deep5050/crazymoji#readme",
   "dependencies": {
