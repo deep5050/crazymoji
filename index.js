@@ -1,7 +1,7 @@
 //@ts-check
 
-const emojis = require('./crazymoji.json');
-const array = require('./emojis');
+const emojis = require('./src/crazymoji.json');
+const array = require('./src/emojis');
 var emoji_array = array.emojis_array();
 
 const titleize = require('titleize');
