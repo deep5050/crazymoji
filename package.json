@@ -22,7 +22,11 @@
   "bugs": {
     "url": "https://github.com/deep5050/crazymoji/issues"
   },
-  "files": ["./index.js","./crazymoji.json","./logo.gif"],
+  "files": [
+    "./index.js",
+    "./crazymoji.json",
+    "./logo.gif"
+  ],
   "homepage": "https://github.com/deep5050/crazymoji#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
