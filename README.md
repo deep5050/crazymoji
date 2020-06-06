@@ -25,7 +25,7 @@ crazymoji.emojify(emojis["Smileys & Emotion"]["Monkey Face"]);
 
 ```js
 emoji.categories();
-/* => 
+/* =>
 [
   'Smileys & Emotion',
   'People & Body',
@@ -81,15 +81,15 @@ Flatter/Merge a nested array of strings
 
 Get the RAW object containing all the emojis
 
-**Kind**: static method of [<code>flattern</code>](#module_flattern)  
-**Returns**: <code>Object</code> - - The RAW data of all the emojis  
+**Kind**: static method of [<code>flattern</code>](#module_flattern)
+**Returns**: <code>Object</code> - - The RAW data of all the emojis
 <a name="module_categories"></a>
 
 ## categories ⇒ <code>Array</code>
 
 Get the list of categories of emojis
 
-**Returns**: <code>Array</code> - string - List of emoji categories  
+**Returns**: <code>Array</code> - string - List of emoji categories
 <a name="module_sub_categories"></a>
 
 ## sub_categories ⇒ <code>Array.&lt;string&gt;</code>
@@ -97,7 +97,7 @@ Get the list of categories of emojis
 Get sub-categories of emojis
 
 **Returns**: <code>Array.&lt;string&gt;</code> - - List of sub categories with
-their parent categories  
+their parent categories
 <a name="module_filter_by_category"></a>
 
 ## filter_by_category ⇒ <code>object</code>
