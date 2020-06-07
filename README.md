@@ -1,12 +1,21 @@
 <div align="center">
 <p align="center"><img src="./logo.gif" align="center" /></p>
 <p align="center"><h2 align="center">CRAZYMOJI</h2></p>
-<p align="center"> Exports All The Git Emojis As Json
+<p align="center"> Exports All The Git Emojis As JSON </p>
+<p align="center"><a href="https://github.com/deep5050/crazymoji/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/crazymoji/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a></p>
+
+<p align="center"><a href="https://www.npmjs.com/package/crazymoji"><img alt="npm" src="https://img.shields.io/npm/dt/crazymoji?color=red&label=INSTALL&logo=npm&style=for-the-badge"></a></p>
 </div>
 
 
 ## Why Use?
 Why Keep Referencing Cheatsheets To Find Your Emojis? Simply Use This Module To Export 'Em All :sunglasses:
+
+## What Can It Do?
+- [x] Export As JSON
+- [x] Export For MARKDOWN
+- [x] Fuzzy Search For Emojis
+- [ ] Create Cheatsheet
 
 ## Install
 Run `npm install crazymoji` then add `const crazymoji = require('crazymoji)` to your working file :wink:
@@ -40,52 +49,7 @@ Run `npm install crazymoji` then add `const crazymoji = require('crazymoji)` to 
   ':nerd_face:',
   ':wind_face:',
   ':trollface:',
-  ':lying_facerelieved:',
-  ':woozy_face:',
-  ':dizzy_face:',
-  ':tired_face:',
-  ':clown_face:',
-  ':woman_facepalming:',
-  ':panda_face:',
-  ':dragon_face:',
-  ':neutral_face:',
-  ':monocle_faceconfused:',
-  ':yawning_facetriumph:',
-  ':cursing_face:',
-  ':pouting_face:',
-  ':shushing_face:',
-  ':drooling_face:',
-  ':vomiting_face:',
-  ':sneezing_face:',
-  ':partying_facesunglasses:',
-  ':frowning_face:',
-  ':pleading_face:',
-  ':sun_with_face:',
-  ':nauseated_face:',
-  ':crying_cat_face:',
-  ':upside_down_face:',
-  ':money_mouth_facehugs:',
-  ':new_moon_with_face:',
-  ':full_moon_with_face:',
-  ':innocentsmiling_face_with_three_hearts:',
-  ':slightly_smiling_face:',
-  ':footprintsmonkey_face:',
-  ':slightly_frowning_face:',
-  ':thinkingzipper_mouth_face:',
-  ':last_quarter_moon_with_face:',
-  ':first_quarter_moon_with_face:',
-  ':factory_worker:',
-  ':racehorse:',
-  ':factory:',
-  ':macedonia:',
-  ':space_invader:',
-  ':peace_symbol:',
-  ':office_worker:',
-  ':office:',
-  ':man_factory_worker:',
-  ':topplace_of_worship:',
-  ':page_facing_up:',
-  ':exploding_headcowboy_hat_face:'
+...........
 ]
 
 
@@ -107,52 +71,7 @@ console.log(crazymoji.find('fAce        '));
   ':nerd_face:',
   ':wind_face:',
   ':trollface:',
-  ':lying_facerelieved:',
-  ':woozy_face:',
-  ':dizzy_face:',
-  ':tired_face:',
-  ':clown_face:',
-  ':woman_facepalming:',
-  ':panda_face:',
-  ':dragon_face:',
-  ':neutral_face:',
-  ':monocle_faceconfused:',
-  ':yawning_facetriumph:',
-  ':cursing_face:',
-  ':pouting_face:',
-  ':shushing_face:',
-  ':drooling_face:',
-  ':vomiting_face:',
-  ':sneezing_face:',
-  ':partying_facesunglasses:',
-  ':frowning_face:',
-  ':pleading_face:',
-  ':sun_with_face:',
-  ':nauseated_face:',
-  ':crying_cat_face:',
-  ':upside_down_face:',
-  ':money_mouth_facehugs:',
-  ':new_moon_with_face:',
-  ':full_moon_with_face:',
-  ':innocentsmiling_face_with_three_hearts:',
-  ':slightly_smiling_face:',
-  ':footprintsmonkey_face:',
-  ':slightly_frowning_face:',
-  ':thinkingzipper_mouth_face:',
-  ':last_quarter_moon_with_face:',
-  ':first_quarter_moon_with_face:',
-  ':factory_worker:',
-  ':racehorse:',
-  ':factory:',
-  ':macedonia:',
-  ':space_invader:',
-  ':peace_symbol:',
-  ':office_worker:',
-  ':office:',
-  ':man_factory_worker:',
-  ':topplace_of_worship:',
-  ':page_facing_up:',
-  ':exploding_headcowboy_hat_face:'
+...............
 ]
 
 ```js
@@ -169,6 +88,7 @@ crazymoji.emojify(emojis["Smileys & Emotion"]["Monkey Face"])
 
 
 ## API
+
 ## Modules
 
 <dl>
