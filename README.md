@@ -71,7 +71,7 @@ console.log(crazymoji.find('fAce        '));
   ':nerd_face:',
   ':wind_face:',
   ':trollface:',
-...............
+...........
 ]
 
 ```js
@@ -205,5 +205,11 @@ List down all the emojis
 ## Looking For A Cheatsheet ?
 [crazymoji cheatsheet](./cheatsheet.md)
 
-## Other works
+## License
+> GNU Public License 3.0 Dipankar Pal 2020
+
+[see the license](./LICENSE)
+
+## Other Works
 [qikQR](https://girhub.com/deep5050/qikQR) . [autobadge](https://girhub.com/deep5050/autobadge) . [nonsense-license](https://girhub.com/deep5050/nonsense) . [qikstart](https://girhub.com/deep5050/qikstart)
+
