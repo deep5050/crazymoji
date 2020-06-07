@@ -12,13 +12,13 @@ Why Keep Referencing Cheatsheets To Find Your Emojis? Simply Use This Module To 
 Run `npm install crazymoji` then add `const crazymoji = require('crazymoji)` to your working file :wink:
 
 ## Includes
-- [x]  Smileys & Emotion :
+- [x]  Smileys & Emotion
 - [x]  People & Body
 - [x]  Animals & Nature
 - [x]  Food & Drink
 - [x]  Travel & Places
 - [x]  Activities
-- [x]  Objects,
+- [x]  Objects
 - [x]  Symbols
 - [x]  Flags
 - [x]  GitHub Custom Emoji
