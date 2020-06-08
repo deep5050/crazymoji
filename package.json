@@ -1,7 +1,7 @@
 {
   "name": "crazymoji",
-  "version": "1.0.1",
-  "description": "CLI Tool To Find And Export All the GitHub Emoji In JSON ",
+  "version": "1.0.3",
+  "description": "CLI Tool To Find And Export All the GitHub Emojis As JSON ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
     "emojis",
     "git-emoji",
     "git",
-    "cheatshhet",
+    "cheatsheet",
     "cheat-sheet",
     "doc",
     "README",
@@ -37,10 +37,7 @@
   ],
   "homepage": "https://github.com/deep5050/crazymoji#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
     "fuse.js": "^3.4.3",
-    "markdown-tables-to-json": "^0.1.4",
-    "request": "^2.88.2",
     "titleize": "^2.1.0"
   }
 }
