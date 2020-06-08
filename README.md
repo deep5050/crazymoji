@@ -92,8 +92,8 @@ crazymoji.emojify(emojis["Smileys & Emotion"]["Monkey Face"])
 ## Modules
 
 <dl>
-<dt><a href="#module_flattern">flattern</a> ⇒ <code>Array.&lt;string&gt;</code></dt>
-<dd><p>Flatter/Merge a nested array of strings</p>
+<dt><a href="#module_flatten">flatten</a> ⇒ <code>Array.&lt;string&gt;</code></dt>
+<dd><p>Flatter/Merge a nested arrays of emojis</p>
 </dd>
 <dt><a href="#module_get_raw">get_raw</a> ⇒ <code>Object</code></dt>
 <dd><p>Get the RAW object containing all the emojis</p>
@@ -121,9 +121,9 @@ crazymoji.emojify(emojis["Smileys & Emotion"]["Monkey Face"])
 </dd>
 </dl>
 
-<a name="module_flattern"></a>
+<a name="module_flatten"></a>
 
-## flattern ⇒ <code>Array.&lt;string&gt;</code>
+## flatten ⇒ <code>Array.&lt;string&gt;</code>
 Flatter/Merge a nested array of strings
 
 **Returns**: <code>Array.&lt;string&gt;</code> - - Merged/Flatter array  

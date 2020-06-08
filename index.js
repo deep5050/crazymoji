@@ -19,13 +19,13 @@ var getKeys = function (obj) {
 
 
 /**
- * Flatter/Merge a nested array of strings
- * @module flattern
+ * Flatter/Merge a nested arrays of emojis
+ * @module flatten
  * @param {Array<string>} nested_array - Nested array of category/sub_category
  * @returns {Array<string>} - Merged/Flatter array
  */
 
-module.exports.flattern = (nested_array) => {
+module.exports.flatten = (nested_array) => {
     return [].concat.apply([], nested_array);
 }
 
@@ -95,9 +95,9 @@ module.exports.filter_by_category = (category) => {
  */
 
 module.exports.emojify = (sub_category) => {
-    var flattern = this.flattern(sub_category);
+    var flatten = this.flatten(sub_category);
     var text = [];
-    flattern.forEach(element => {
+    flatten.forEach(element => {
         text.push(`:${element.trim()}:`);
     });
     return text;
